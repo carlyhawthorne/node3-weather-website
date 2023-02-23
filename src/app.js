@@ -90,7 +90,7 @@ app.get('/weather', (req, res) => {
 
 app.get('/products', (req, res) => {
     //get the info off the query string 
-    console.log(req.query)
+    //console.log(req.query)
 
     if(!req.query.search)
     {
