@@ -18,11 +18,11 @@ const forecast = (latitude, longitude, callback) => {
         }
         else
         {
-            console.log(body)
+            
             callback(undefined, 
                 body.current.weather_descriptions[0] + '. It is currently ' + body.current.temperature + 
                 ' degress out. It feels like ' + body.current.feelslike  + '. There is a ' + body.current.precip + '% chance of rain and the wind speed is ' + body.current.wind_speed  
-            )
+            )  
         }
     })
 
